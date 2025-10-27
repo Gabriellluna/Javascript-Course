@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo JS</title>
+    <style>
+        *{
+            text-align: center;
+        }
+        .start, .stop{
+            padding: 15px 30px;
+            font-size: 18px;
+            border-radius: 15px;
+            cursor: pointer;
+            border: none;
+            height: 80px;
+            width: auto;
+            color: #FFFFFF;
+        }
+
+        .start{
+            background-color: green;
+        }
+        .stop{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Aprendendo Javascript</h1>
+    <p id="texto">lala</p> <!--vamos selecionar esse texto com JS para mudar seu valor-->
+    <p>
+        <script>
+            document.writeln("Com documento.<b>write</b>")
+        </script>
+    </p>
+    <h2 id="tempo">0</h2>
+    <div>
+        <button onclick="Ativar()" class="start">Ativar Contagem</button>
+        <button onclick="Desativar()" id="stop" class="stop">Parar Contagem</button>
+    </div>
+    <script>
+        alert("Olá mundo")
+    </script>
+    <script src="script/index.js"></script>
+</body>
+</html>
